@@ -1,0 +1,93 @@
+.card{
+    width: 725px;
+    height: auto;
+    background: #fff;
+    margin: 32px ;
+    border-radius: 12px;
+    box-shadow: 1px 2px 4px rgba(51, 51, 51, 0.269);
+    
+}
+.card-header  {
+    display: flex;
+   justify-content: space-between;
+   padding: 15px;
+    
+}
+.card-header img {
+    border-radius: 50%;
+    border: 1px solid rgb(208, 206, 206);
+}
+
+.card-header div {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-header div label{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+.card-header div small{
+    font-family:  sans-serif;
+    color: rgb(142, 142, 142);
+    margin-top: 2px;
+}
+
+
+.card-header .col-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-header .col-2 label {
+
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(135, 135, 135);
+
+}
+
+.card-body img{
+    width: 100%;
+    height: auto;
+}
+
+.card p{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding: 10px;
+    color: #333;
+}
+
+.card-footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-footer a{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(143, 141, 141);
+    display: flex;
+    align-items: center;
+    padding: 3px 30px;
+   
+    
+}
+
+.card-footer a span{
+    margin-right: 8px;
+}
+
+.card-footer a:hover {
+    background: rgb(237, 236, 236);
+    border-radius: 12px;
+    
+}

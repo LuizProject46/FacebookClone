@@ -3,6 +3,7 @@ import './index.css'
 
 import Stories from '../Stories/index'
 import FormPost from '../FormPost'
+import PostCard from '../PostCard'
 export default function Main(){
     return (
         <div className='container'>
@@ -43,9 +44,15 @@ export default function Main(){
             <div className="main">
                 <Stories/>
                 <FormPost/>
+                <PostCard/>
+                <PostCard/>
+                <PostCard/>
+                <PostCard/>
+                <PostCard/>
+                <PostCard/>
             </div>
             <div className="right-menu">
-                ddd
+                
             </div>
         </div>
     )
